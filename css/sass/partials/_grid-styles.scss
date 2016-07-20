@@ -1,0 +1,31 @@
+.work-blocks {
+  position: relative;
+  height:12em;
+  width: 18em;
+  overflow: hidden;
+}
+
+.work-hidden-p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  padding-top: 4em;
+  background:rgba(200, 200, 255, 0.6);
+  color: #ddd;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in 200ms;
+  -webkit-transition: visibility opacity 200ms;
+  text-align: center;
+
+}
+
+
+.work-blocks:hover .work-hidden-p {
+  visibility: visible;
+  opacity: 1;
+}
+//http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering

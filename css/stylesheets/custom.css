@@ -1,0 +1,56 @@
+body {
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #61666D;
+  background-color: #FFFEFC; }
+
+#logo-img {
+  height: 6em;
+  width: 6em;
+  margin-left: 8em;
+  margin-top: 4em; }
+
+.menu {
+  float: right;
+  margin-right: 8em;
+  margin-top: 5em; }
+
+.menu-item {
+  font-size: 1.5em;
+  margin-right: .5em;
+  color: #505053; }
+
+.menu-item:active, .menu-item:hover {
+  text-decoration: underline;
+  color: #497E9A; }
+
+#brief-p {
+  margin-top: 12em;
+  text-align: center;
+  font-size: 1.5em; }
+
+.work-blocks {
+  position: relative;
+  height: 12em;
+  width: 18em;
+  overflow: hidden; }
+
+.work-hidden-p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  padding-top: 4em;
+  background: rgba(200, 200, 255, 0.6);
+  color: #ddd;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in 200ms;
+  -webkit-transition: visibility opacity 200ms;
+  text-align: center; }
+
+.work-blocks:hover .work-hidden-p {
+  visibility: visible;
+  opacity: 1; }
