@@ -5,32 +5,15 @@ body{
 	color: #61666D;
     background-color: #FFFEFC;
 }
+a{
+    text-decoration: none;
 
-#logo-img{
-    height: 6em;
-    width: 6em;
-    margin-left: 8em;
-    margin-top: 4em;
 }
-.menu{
-float: right;
-margin-right: 8em;
-margin-top: 5em;
-}
-.menu-item{
-    font-size: 1.5em;
-    margin-right: .5em;
-    color: #505053;
-}
-.menu-item:active, .menu-item:hover{
-    text-decoration: underline;
-    color: #497E9A;
-}
-#brief-p{
-    margin-top: 12em;
-    text-align: center;
-    font-size: 1.5em;
-}
+
 
 @import "compass";
-@import "partials/_grid-styles.scss"
+@import "../font-awesome-4.6.3/scss/font-awesome.scss";
+@import "partials/_header-top-main.scss";
+@import "partials/_grid-styles.scss";
+@import "partials/_about.scss";
+@import "partials/_contact.scss";
