@@ -1,0 +1,58 @@
+$contact-grey: #505053;
+// Input Divs
+.form-group {
+	margin-bottom: 1em;
+
+}
+// Input styles
+.contact-input {
+	color: $contact-grey;
+	margin: 0;
+	padding-left: 30px;
+    background-color: #FFFEFC;
+
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+     color:$contact-grey !important;
+
+ }
+ input:-moz-placeholder,textarea:-moz-placeholder { /* Firefox 18- */
+   color: $contact-grey;
+}
+
+input::-moz-placeholder,textarea::-moz-placeholder  {  /* Firefox 19+ */
+   color: $contact-grey;
+}
+
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+   color: $contact-grey;
+}
+
+//Icon Position and appearance
+.input-group-addon {
+	padding: 0.5em;
+	font-size: 1em;
+	font-weight: lighter;
+	color: $contact-grey;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+}
+
+#message-textarea {
+	padding-top: 0.5em;
+	height: 9em;
+}
+#send-message{
+    background-color: #497E9A;
+}
+#send-message:hover, #send-message:active{
+    background-color: darken(#497E9A, 10%);
+}
+#airplane{
+    margin-left: .5em;
+}
+
+.form-error{
+    margin-top: 2em!important;
+}
