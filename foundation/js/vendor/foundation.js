@@ -2312,7 +2312,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @option
      * @example false
      */
-    liveValidate: false,
+    liveValidate: true,
 
     patterns: {
       alpha: /^[a-zA-Z]+$/,
