@@ -16,7 +16,6 @@
     width: 30em;
     object-fit: cover;
     object-position: top center;
-    border-radius: .25em;
 
 }
 #portfolio-img{
@@ -47,7 +46,14 @@
   visibility: visible;
   opacity: 1;
 }
-//http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering
+
+// Medium Screen
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #block-container{
+        margin-left: 2em;
+
+    }
+}
 
 // Small Screen
 @media screen and (max-width: 39.9375em)  {

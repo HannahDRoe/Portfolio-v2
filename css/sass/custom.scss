@@ -7,9 +7,10 @@ body{
 }
 a{
     text-decoration: none;
-
 }
-
+main{
+    margin-top: 3em;
+}
 
 @import "compass";
 @import "../font-awesome-4.6.3/scss/font-awesome.scss";
@@ -17,3 +18,4 @@ a{
 @import "partials/_grid-styles.scss";
 @import "partials/_about.scss";
 @import "partials/_contact.scss";
+@import "partials/_portfolio-pgs.scss";
