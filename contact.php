@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hannah Roe</title>
-        <link rel="shortcut icon" href="css/img/favicon.ico">
+        <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/portfolio-hannahdroe/Portfolio/favicon.ico">
 
         <!-- Compressed CSS -->
         <link rel="stylesheet" href="foundation/css/foundation.min.css">
@@ -16,7 +16,7 @@
         <header>
             <nav role="navigation" class="row">
                 <div class="small-12 medium-6 large-3 columns">
-                    <a href="index.html"><img id="logo-img" src="css/img/better.svg" alt="Logo" /></a>
+                    <a href="index.html"><img id="logo-img" src="https://s3-us-west-2.amazonaws.com/portfolio-hannahdroe/Portfolio/logo.svg" alt="Logo" /></a>
                 </div>
                 <div class="small-12 medium-6 large-6 columns">
                     <ul class="vertical medium-horizontal menu">
@@ -33,8 +33,9 @@
                 </div>
             </nav>
         </header>
-        <main class="row">
+        <main class="row" id="contact-main">
             <section class="small-10 medium-10 large-10 small-centered column">
+                <h3>Contact Me</h3>
                 <div id="contact-container" class="row">
                     <form id="contact-form" action="email_form.php" method="post" role="form" data-abide novalidate>
                         <!-- Name input -->
@@ -81,10 +82,16 @@
 
             </div>
         </main>
+        <footer class="social-footer ">
+                <a href="https://www.linkedin.com/in/hannahdroe" class="fa fa-linkedin fa-2x social-circles" target="_blank"></a>
+                <a href="http://www.github.com/HannahDRoe" class="fa fa-github fa-2x social-circles" target="_blank"></a>
+                <a href="contact.php" class="fa fa-envelope fa-2x social-circles" target="_blank"></a>
+        </footer>
         <!-- Javascript  -->
-        <script type="text/javascript" src="foundation/js/vendor/jquery.js"></script>
+        <script type="text/javascript"   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
         <script type="text/javascript" src="foundation/js/vendor/foundation.min.js"></script>
         <script type="text/javascript" src="foundation/js/app.js">
         </script>
+        <script type="text/javascript" src="js/google-analytics.js"></script>
     </body>
 </html>
