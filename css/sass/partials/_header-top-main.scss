@@ -1,5 +1,6 @@
+$accent: #560682;
 header {
-    height: 20em;
+    height: 15em;
     margin-top: 4em;
 }
 #logo-img {
@@ -18,21 +19,34 @@ header {
 .menu-item:active,
 .menu-item:hover {
     text-decoration: underline;
-    color: #497E9A;
+    color: $accent;
 }
 #brief-p {
-    margin-top: 3em;
+    margin-top: 2em;
     margin-bottom: 5em;
     text-align: center;
     font-size: 1.5em;
 }
+.social-footer{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.social-circles{
+    color: #61666D;
+    margin-right: .5em;
+}
+.social-circles:hover,.social-circles:active{
+    color: $accent;
+}
+
 // Medium Screen
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     header {
         margin-top: 0;
     }
     #brief-p{
-        margin-top: 0;
+        margin-top: 1em;
     }
 }
 // Small Screen
@@ -49,6 +63,6 @@ header {
         margin-top: 0.5em;
     }
     #brief-p{
-        margin-top:0;
+        margin-top: 4em;
     }
 }

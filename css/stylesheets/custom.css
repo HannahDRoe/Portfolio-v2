@@ -9,7 +9,7 @@ a {
   text-decoration: none; }
 
 main {
-  margin-top: 3em; }
+  margin-top: 2em; }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2198,7 +2198,7 @@ main {
   clip: auto; }
 
 header {
-  height: 20em;
+  height: 15em;
   margin-top: 4em; }
 
 #logo-img {
@@ -2217,20 +2217,32 @@ header {
 .menu-item:active,
 .menu-item:hover {
   text-decoration: underline;
-  color: #497E9A; }
+  color: #560682; }
 
 #brief-p {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 5em;
   text-align: center;
   font-size: 1.5em; }
+
+.social-footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.social-circles {
+  color: #61666D;
+  margin-right: .5em; }
+
+.social-circles:hover, .social-circles:active {
+  color: #560682; }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   header {
     margin-top: 0; }
 
   #brief-p {
-    margin-top: 0; } }
+    margin-top: 1em; } }
 @media screen and (max-width: 39.9375em) {
   header {
     margin-top: 0; }
@@ -2243,7 +2255,7 @@ header {
     margin-top: 0.5em; }
 
   #brief-p {
-    margin-top: 0; } }
+    margin-top: 4em; } }
 #block-container {
   margin-top: 4em; }
 
@@ -2257,7 +2269,8 @@ header {
   height: 20em;
   width: 30em;
   object-fit: cover;
-  object-position: top center; }
+  object-position: top center;
+  border-radius: .15em; }
 
 #portfolio-img {
   object-position: top left; }
@@ -2293,7 +2306,13 @@ header {
     margin-right: 1em; } }
 #about-p {
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin-bottom: 2em; }
+
+#resume {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  text-align: center; }
 
 .form-group {
   margin-bottom: 1em; }
@@ -2332,10 +2351,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 9em; }
 
 #send-message {
-  background-color: #497E9A; }
+  background-color: #560682; }
 
 #send-message:hover, #send-message:active {
-  background-color: #396277; }
+  background-color: #360451; }
 
 #airplane {
   margin-left: .5em; }
@@ -2343,9 +2362,35 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .form-error {
   margin-top: 1em !important; }
 
+#thanks-p {
+  margin-top: 2em;
+  text-align: center;
+  margin-bottom: 2em; }
+
+@media screen and (max-width: 39.9375em) {
+  #thanks-p {
+    margin-top: 5em; } }
 .portfolio-sect {
   margin-bottom: 4em; }
+
+.portfolio-header {
+  margin-bottom: 2em; }
 
 .portfolio-p {
   text-align: center;
   margin-bottom: 4em; }
+
+.portfolio-link {
+  font-size: 1.25em;
+  color: #560682; }
+
+.portfolio-icon {
+  font-size: 1.25em;
+  color: #560682; }
+
+.portfolio-link:active, .portfolio-link:hover, .portfolio-link:visited {
+  color: #360451;
+  text-decoration: underline; }
+
+#dribble {
+  color: #560682; }
