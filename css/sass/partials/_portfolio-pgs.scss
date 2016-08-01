@@ -1,3 +1,4 @@
+$accent: #560682;
 // Portfolio img and blurb container
 .portfolio-sect{
     margin-bottom: 4em;
@@ -6,8 +7,29 @@
 .portfolio-img{
 
 }
+.portfolio-header{
+    margin-bottom: 2em;
+}
 // Protfoliop Blurb
 .portfolio-p{
     text-align: center;
     margin-bottom: 4em;
+}
+
+// Portfolio Links including Github
+
+.portfolio-link{
+    font-size: 1.25em;
+    color: $accent;
+}
+.portfolio-icon{
+    font-size: 1.25em;
+    color: $accent;
+}
+.portfolio-link:active, .portfolio-link:hover, .portfolio-link:visited{
+    color: darken($accent, 10%);
+    text-decoration: underline;
+}
+#dribble{
+    color: $accent;
 }
